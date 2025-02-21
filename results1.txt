@@ -1,0 +1,8 @@
+Accuracy using level_0 representation: 0.392
+Accuracy using level_1 representation: 0.5
+Accuracy using full pyramid representation: 0.528
+
+With each improvement of different representations, the accuracy increases. Level 0 is the lowest with 0.392, this is because
+this representation captures the whole image without much detailed information. Level 1 is higher with 0.5 accuracy since it splits
+the image into 4 quadrants and gives more detailed information about the image. The full pyramid has the highest accuracy with 0.528
+combining the level 0 and 1 representations.

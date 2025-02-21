@@ -1,0 +1,9 @@
+Looking at the SVM training set, the accuracy is at about 0.68 where the test accuracy
+is at about 0.45. Because the training data is so much higher than the test data, the data
+was being overfitted.
+
+With the KNN training and testing sets, the accuracy becomes closer and closer to each other
+with the increasing k values. At k=0, the training set is at almost 100% accuracy and testing
+is 32%. At k=5, around 0.52 for training and 0.48 for testing. At k=25, 0.4 for testing and
+0.45 for training. This shows that as k goes up, the accuracy decreases and the data seems
+to become more and more underfit.
